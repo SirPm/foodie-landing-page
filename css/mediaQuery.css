@@ -1,0 +1,433 @@
+@media screen and (max-width: 1080px) {
+    header {
+        height: 90vh;
+    }
+    .text-1 {
+        margin-top: 10%;
+    }
+    .image-1 img {
+        transform: translate(-50%, 50%);
+    }
+
+    .second-section-testimonial div button {
+        padding: 0.2rem 1.5rem;
+    }
+
+    .play-vid p {
+        margin: 0 0;
+        font-size: 0.8rem;
+    }
+
+    .individual-card {
+        padding: 1rem 1rem;
+    }
+
+    .individual-card p {
+        font-size: 0.7rem;
+    }
+
+    .bi-plus {
+        margin-right: -1.2rem;
+        padding: 0rem; 
+        height: 1.rem;
+        width: 3rem;
+    }
+
+    .info ul li {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .nav-links {
+        width: 70%;
+    }
+
+    .image-1 img {
+        transform: translate(0%, 80%);
+    }
+
+    .second-section-testimonial div button {
+        padding: 0.2rem 1.5rem;
+    }
+
+    .play-vid p {
+        margin: 0 0;
+        font-size: 0.8rem;
+    }
+
+    .food-name-and-price {
+        height: 3.4rem;
+        margin-bottom: 0rem;
+    }
+
+    .bi-plus {
+        margin-right: -0.9rem;
+        padding: 0rem; 
+        height: 1.rem;
+        width: 3rem;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .second-section-testimonial div button {
+        padding: 0.1rem 1rem;
+    }
+
+    .play-btn {
+        height: 1.6rem;
+        width: 1.6rem;
+    }
+
+    .play-vid p {
+        margin: 0 0;
+        font-size: 0.8rem;
+    }
+
+    .info {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .fy-bg-image {
+        display: none;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 12vh;
+        background-color: #ff9f0d;
+        width: 100%;
+        left: 0;
+        height: 88vh;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .nav-links li {
+        opacity: 0;
+    }
+
+    .nav-links li:hover {
+        background-color: white;
+        border-radius: 5rem;
+        color: var(--grey-shade--);
+        padding: 0.7rem 3rem;
+        transform: scale(20%);
+    }
+
+    .nav-links li a, .nav-links-footer li a  {
+        text-decoration: none;
+        transition: all 0.5s ease;
+    }
+
+    .nav-links li a:hover {
+        color: black;
+        background-color: white;
+        font-size: 1rem;
+    }
+
+    .nav-links-footer li {
+        font-size: 0.8rem;
+    }
+
+    .nav-links-footer li a:hover {
+        border-right: 0.2rem solid #484848;
+        border-left: 0.2rem solid #484848;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        border-radius: 3rem;
+        transform: scale(30%);
+        color: white;
+    }
+
+    .burger {
+        display: block;
+        z-index: 3;
+        cursor: pointer;
+    }
+
+    .burger:hover {
+        background-color: rgb(153, 143, 143);
+        padding: 0.2rem 0.3rem;
+        border-radius: 0.3rem;
+    }
+
+
+    /***********************
+        Header Styles
+    ***********************/
+
+    header {
+        height: 140vh;
+        width: 100%;
+    }
+
+    .header-section {
+        flex-direction: column;
+    }
+
+    .text-1 {
+        width: 100%;
+    }
+
+    .text-1 h1 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .text-1 p {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    .text-1 button {
+        display: block;
+        margin: 1rem auto;
+    }
+
+    .image-1 img {
+        transform: translate(0%, 0%);
+        margin: 2rem auto;
+        display: block;
+    }
+
+    /***********************
+        Main Section Styles
+    ***********************/
+
+
+
+    /***********************
+        First Section
+    ***********************/
+
+    #firstSection {
+        flex-direction: column;
+    }
+
+    .info-and-contact {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+
+
+    /***********************
+        Second Section
+    ***********************/
+
+    #secondSection {
+        flex-direction: column;
+    }
+
+    
+
+    #secondSection .image-3 img {
+        margin-left: -10%;
+    }
+
+    .text-2 h5 {
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .text-2 h3 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .text-2 p {
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .second-section-testimonial {
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .second-section-testimonial div button {
+        padding: 0.2rem 1.5rem;
+    }
+
+    .play-vid p {
+        margin: 0 0;
+        font-size: 0.8rem;
+    }
+
+
+
+    /***********************
+        Third Section
+    ***********************/
+
+    .card-section {
+        flex-direction: column;
+
+    }
+
+    .individual-card {
+        width: 100%;
+        margin: 1.5rem auto;
+        height: 100%;
+        padding: 1rem 1rem;
+    }
+
+    .individual-card p {
+        font-size: 1rem;
+    }
+
+
+
+    /***********************
+        Fourth Section
+    ***********************/
+
+    .text-4 p {
+        width: 90%;
+    }
+
+    .menus-1 {
+        flex-direction: column;
+    }
+
+    .menu-details {
+        width: 100%;
+        margin: 1.5rem auto;
+    }
+
+    .second-row {
+        margin-top: 0;
+    }
+
+    .bi-plus {
+        margin-right: -1.2rem;
+    }
+
+
+
+    /***********************
+        Fifth Section
+    ***********************/
+
+    .text-5 p {
+        width: 90%;
+    }
+
+    .testimony {
+        width: 100%;
+    }
+
+    .testimony img {
+        border-radius: 40%;
+    }
+
+
+
+    /***********************
+        Sixth Section
+    ***********************/
+
+    #sixthSection h3 {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    .sixth-section-input form button {
+        padding: 0.1rem 1.4rem;
+    }
+
+
+
+    /***********************
+        Footer Section
+    ***********************/
+
+    .logo-footer h1 {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        color: #484848;
+    }
+
+    .footer-logo-and-links .my-nav {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .nav-links-footer {
+        width: 100%;
+    }
+
+    .socials {
+        width: 10%;
+        flex-direction: column;
+    }
+
+    .info {
+        flex-direction: column;
+        width: 70%;
+    }
+
+    #last-ul {
+        margin-bottom: 0;
+    }
+
+    .info ul li {
+        font-size: 0.9rem;
+        text-align: right;
+    }
+
+
+}
+
+@media screen and (max-width: 390px) {
+    .second-section-testimonial div button {
+        padding: 0.1rem 1.2rem;
+    }
+
+    .play-btn {
+        height: 1.4rem;
+        width: 1.4rem;
+    }
+
+    .play-vid p {
+        font-size: 0.7rem;
+    }
+}
+
+.nav-show {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggleBurger .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggleBurger .line2 {
+    opacity: 0;
+}
+
+.toggleBurger .line3 {
+    transform: rotate(45deg) translate(-3px, -5px);
+}
